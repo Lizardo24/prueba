@@ -1,0 +1,14 @@
+#im1 img{
+  width: 280px;
+  height: 300px;
+  margin-left: 25%;
+}
+#im1 {
+  border-color: green;
+  border-width: 5px;
+}
+#im2 img{
+  width: 280px;
+  height: 300px;
+  margin-left: 10%;
+}
