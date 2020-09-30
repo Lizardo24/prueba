@@ -5,15 +5,7 @@ $(document).ready(function(){
     $("#semana2").hide();
     $("#semana3").hide();
     $("#semana4").hide();
-    $("#primerasemana").click(function(){
-      $("#semana1").show("slow");
-      $("#semanitas").hide();
-    });
-
-    $(".show-btn").click(function(){
-      $("#semanitas").show();
-      $("#semana1").hide();
-    });
+  
     $("#segundasemana").click(function(){
         $("#semana2").show("slow");
         $("#semanitas").hide();
