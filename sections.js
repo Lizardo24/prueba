@@ -1,22 +1,18 @@
 
 $(document).ready(function(){
-    // Hide displayed paragraphs with different speeds
+
+    $("#semana1").hide();
+    $("#semana2").hide();
     $("#semana3").hide();
+    $("#semana4").hide();
     $("#primerasemana").click(function(){
-        $("p.normal").hide();
-        $("p.fast").hide("fast");
-        $("p.slow").hide("slow");
-        $("p.very-fast").hide(50);
-        $("p.very-slow").hide(2000);
+      $("#semana1").show("slow");
+      $("#semanitas").hide();
     });
 
-    // Show hidden paragraphs with different speeds
     $(".show-btn").click(function(){
-        $("p.normal").show();
-        $("p.fast").show("fast");
-        $("p.slow").show("slow");
-        $("p.very-fast").show(50);
-        $("p.very-slow").show(2000);
+      $("#semanitas").show();
+      $("#semana1").hide();
     });
 
     $("#tercerasemana").click(function(){
