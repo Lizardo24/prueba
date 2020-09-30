@@ -1,0 +1,6 @@
+#Arbol img{
+  background-color: black;
+  shape-outside: border-box;
+  margin-left: 25%;
+  max-width:105%;
+}
